@@ -1,0 +1,31 @@
+[
+	{
+		"Sno":1,
+		"FirstName":"Mounika",
+		"LastName":"Chirra",
+		"Qualification":"MBA"
+
+	},
+	{
+		"Sno":2,
+		"FirstName":"Anusha",
+		"LastName":"Chirra",
+		"Qualification":"M.Tech"
+
+	},
+	{
+		"Sno":3,
+		"FirstName":"Susmitha",
+
+		"LastName":"Kalli",
+		"Qualification":"B.Tech"
+
+	},
+	{
+		"Sno":4,
+		"FirstName":"Nagalakshmi",
+		"LastName":"Kondeti",
+		"Qualification":"MCA"
+
+	}
+]
