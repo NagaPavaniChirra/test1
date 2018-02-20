@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display JSON data in table format</title>
+	<link rel="stylesheet" type="text/css" href="disjsondatatable.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../js/disjsondatatable.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h3 style="text-align:center;margin:10px;padding: 20px;">Student table</h3>
+		<button type="button" class="btn btn-primary" id="stable">CreateTable</button>
+	
+		<div>
+			<table class="table table-bordered" style="display: none;">
+				<thead>
+					<tr>
+						<th>S.no</th>
+						<th>FirstName</th>
+						<th>LastName</th>
+						<th>Qualification</th>
+					</tr>
+				</thead>
+				<tbody id="student-table">
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+		
+</body>
+</html>
